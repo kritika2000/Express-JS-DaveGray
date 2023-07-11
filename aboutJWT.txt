@@ -1,0 +1,24 @@
+We usually JWT to authorize APIs
+JWTs are issued to the client after the user authenticated for the first time.
+When authentication is successful the server/APIs issues an Access Token(short lived - 5 to 15 mins) and
+a Refresh Token(Long term - hours or days).
+
+Still have XSS and CSRF attack risk.
+APIS sends and receives Access Token as JSON and it is stored in client's memory, so they can 
+be lost when the app is closed. https://mannharleen.github.io/2020-03-19-handling-jwt-securely-part-1/
+Should not be stored in local storage and cookies as they can be accessed by cient side JS.
+
+Refresh Token are sent as an httponly cookie i.e. it can't be accessed through CJS. Must need an expiration.
+
+Overall process:-
+-server issues an Access token on first authentication/authorization.
+-client uses the access-token for access the API untile it gets expired. If it
+gets expired then the client needs to send the refresh token to the APIs refresh endpoint 
+to get a new access token. The client uses the new access token to access the API.
+-verified with middleware.
+-new token issued as refresh request.
+
+We need npm i dotenv jsonwebtoken cookie-parser pacakges.
+dotenv -> to store variables which are added to the process object.
+jsonwebtoken -> to generate token 
+cookie-parser -> parses the cookie and add a cookies property inside req object.

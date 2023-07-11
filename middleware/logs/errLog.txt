@@ -1,0 +1,15 @@
+20230320	13:05:25	9754d349-02c1-4ea8-b079-356773db6747	Error: Not Allowed by CORS
+20230320	15:20:50	24ae5fca-b646-4f1b-a5f3-ab73a7e36035	Error: ENOENT: no such file or directory, stat '/Users/arya/Desktop/ExpressJS-DaveGray/nodejs_web_server/routes/views/index.html'
+20230322	12:51:23	174f0bfa-a272-4146-81ad-ec15a138fc21	Error: secretOrPrivateKey must have a value
+20230322	12:51:35	a474c224-be09-43d7-b94d-c959956912cd	ReferenceError: accessToken is not defined
+20230322	12:51:37	99829a3d-6b68-42f5-a6fe-0d575d783e63	ReferenceError: accessToken is not defined
+20230322	12:52:27	1a024a5b-41f3-47a3-bcd2-4f8d2d5ca1c8	ReferenceError: accessToken is not defined
+20230322	12:52:28	583f574d-6e94-4133-ad88-45196571a146	ReferenceError: accessToken is not defined
+20230322	12:54:25	e652079c-1771-4a21-9b01-946921881b47	ReferenceError: accessToken is not defined
+20230322	12:54:26	ccd76b17-f0ac-4266-a11c-9569c5396547	ReferenceError: accessToken is not defined
+20230322	12:55:51	ad2b9f6b-e618-4ea5-ade5-d52717191c5f	ReferenceError: accessToken is not defined
+20230322	12:56:23	701795d0-4c22-4ab0-bca5-7c7a20ab02d3	ReferenceError: accessToken is not defined
+20230322	12:57:26	ebaddb90-6030-4aa0-af6f-d4c763933db9	ReferenceError: accessToken is not defined
+20230322	12:57:27	b1fba73b-9398-4ca2-9442-db09ac8a7af5	ReferenceError: accessToken is not defined
+20230322	12:58:02	9071a207-5108-4a43-9c8f-1d49eb670e33	ReferenceError: accessToken is not defined
+20230322	12:58:03	f60a8829-8cb2-4bb5-bc49-270289f41385	ReferenceError: accessToken is not defined

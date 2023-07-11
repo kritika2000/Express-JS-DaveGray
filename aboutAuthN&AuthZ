@@ -1,0 +1,5 @@
+AuthN -> the process of verifying who somenone is.
+AuthZ -> the process of verifying what resources a user has access to.
+
+JWT tokens not only used for authentication, but also used to allow access 
+for API endpoint. They uses Authorization header.
